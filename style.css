@@ -15,7 +15,6 @@
 .tittle-text {
     font-size: 2.8rem;
     font-weight: bold;
-    line-height: auto;
     color: #131313;
 }
 
@@ -23,7 +22,6 @@
     font-size: 1.4rem;
     color: #131313;
     font-weight: 600;
-    line-height: auto;
 }
 
 .para-text {
@@ -86,16 +84,78 @@ header {
 
 .banner-text h1 {
     color: #131313;
-    font-size: 64px;
+    font-size: 4rem;
     margin-bottom: 32px;
 }
 
 .banner-text p {
-    width: 887px;
+    max-width: 887px;
     text-align: center;
     margin: 0 auto 32px;
 }
 
 .banner-img {
     max-width: 1440px;
+    padding: 45px;
+}
+
+.banner-img>img {
+    max-width: 100%;
+}
+
+/* responsive header  */
+
+/* for tablet  */
+
+@media screen and (max-width: 992px) {
+    #navber {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+
+    .banner-text p {
+        padding: 0 15px;
+    }
+
+    .tittle-text {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 2rem;
+    }
+
+    .tittle-text {
+        font-size: 2rem;
+    }
+
+    .orange-btn {
+        font-size: 1rem;
+        padding: 15px 20px;
+
+    }
+}
+
+
+/* for mobile  */
+@media screen and (max-width: 576px) {
+    .banner-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .tittle-text {
+        font-size: 1.5rem;
+    }
 }
