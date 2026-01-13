@@ -144,7 +144,11 @@ header {
     .orange-btn {
         font-size: 1rem;
         padding: 15px 20px;
+    }
 
+    .banner-img {
+        padding: 0;
+        vertical-align: middle;
     }
 }
 
