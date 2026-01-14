@@ -103,6 +103,45 @@ header {
     max-width: 100%;
 }
 
+/* Feature SEction  */
+
+#feature {
+    display: flex;
+    margin: 85px auto 130px;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+.img-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.img-section {}
+
+.hijibiji-text {
+    font-size: 45px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.hijibiji-text .black {
+    color: #131313;
+}
+
+.hijibiji-text .orange {
+    color: #FF900E;
+}
+
+.feature-para {
+    max-width: 537px;
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+
+
 /* responsive header  */
 
 /* for tablet  */
