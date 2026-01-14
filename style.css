@@ -119,7 +119,9 @@ header {
     gap: 24px;
 }
 
-.img-section {}
+.img-section img {
+    max-width: 342px;
+}
 
 .hijibiji-text {
     font-size: 45px;
@@ -169,6 +171,15 @@ header {
     .tittle-text {
         font-size: 2.5rem;
     }
+
+    #feature {
+        flex-direction: column;
+    }
+
+    .img-section img {
+        max-width: 300px;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -189,6 +200,7 @@ header {
         padding: 0;
         vertical-align: middle;
     }
+
 }
 
 
